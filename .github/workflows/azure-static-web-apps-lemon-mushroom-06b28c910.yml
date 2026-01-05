@@ -24,13 +24,16 @@ jobs:
           submodules: true
           lfs: false
 
-      - name: Validate token format
+      - name: Check secret presence
         run: |
-           printf "%s" "$AZURE_STATIC_WEB_APPS_API_TOKEN" | wc -l
-    
+          if [ -z "$AZURE_STATIC_WEB_APPS_API_TOKEN" ]; then
+            echo "SECRET IS EMPTY"
+          else
+            echo "SECRET EXISTS, length=${#AZURE_STATIC_WEB_APPS_API_TOKEN}"
+          fi
         env:
           AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
- 
+          
       - name: Build And Deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
@@ -41,6 +44,7 @@ jobs:
           api_location: ""         # set if you have an API folder
           output_location: ""     # build output / repo root
           skip_app_build: true
+
 
 
 
