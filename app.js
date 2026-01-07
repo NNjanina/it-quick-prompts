@@ -60,6 +60,7 @@ function updatePreview() {
 function insertMessage(message) {
     microsoftTeams.pages.task.submitTask(message);
     };
-}
+
+
 
 
