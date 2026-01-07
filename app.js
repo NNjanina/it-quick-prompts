@@ -57,11 +57,8 @@ function updatePreview() {
     document.getElementById("preview").value = msg.text;
 }
 
-function insertMessage() {
-    const text = document.getElementById("preview").value;
-
-    microsoftTeams.pages.task.submitTask({
-        type: "compose",
-        text: text
+function insertMessage(message) {
+    microsoftTeams.pages.task.submitTask(message);
     });
 }
+
