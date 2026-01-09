@@ -51,13 +51,17 @@ function renderCategories(categories) {
 // Insert message
 function insertMessage(message) {
   if (runningInTeams) {
-    microsoftTeams.pages.task.submitTask(message); // ✅ Correct for v2
+    microsoftTeams.tasks.submitTask({
+      type: "message",
+      text: message
+    });
   } else {
     alert("Local test:\n\n" + message);
   }
 }
 
 document.addEventListener("DOMContentLoaded", init);
+
 
 
 
