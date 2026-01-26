@@ -1,0 +1,6 @@
+{
+  "globalHeaders": {
+    "Content-Security-Policy": "frame-ancestors https://teams.microsoft.com https://*.teams.microsoft.com;",
+    "X-Frame-Options": "ALLOW-FROM https://teams.microsoft.com"
+  }
+}
