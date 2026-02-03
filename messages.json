@@ -1,66 +1,206 @@
 {
   "categories": [
     {
-      "name": "Greeting, Follow Up and Closing Messages",
-      "items": [
-         "Hi there! I am reaching out regarding your ticket. Could you please share more details about the issue you're facing so I can assist you better?",
-         "Hi! I’m from the IT department, and it’s a pleasure to meet you! I’m reaching out regarding your request. To assist you, please follow these steps:\n\nDownload the AnyDesk program:\nIf you’re using Windows, you can download it from this link: https://anydesk.com/en or search for it in your browser.\nIf you’re using macOS, please download it from this link:https://anydesk.com/en/downloads/mac-os\n\nInstall the program:\nOn Windows: Follow the on-screen installation instructions.\nOn macOS: After installation, go to System Settings > Privacy & Security and grant AnyDesk access to Screen Recording and Accessibility.\n\nOpen AnyDesk and send me your AnyDesk address (a 9–11 digit code).\n\nImportant: While I am connected to your computer, please do not leave your device without notifying me first.\n\nPlease note that we are no longer able to accept IT support requests via direct messages. Kindly submit a ticket through IT Helpdesk. Thank you for your understanding!",
-         "Hello! I am just checking in regarding your ticket. Are you still experiencing the issue?",
-         "Can I please have your Anydesk ID to connect and assist you further?",
-         "Hello! I hope you are doing well.\n.I am reaching out to you with regards to your new laptop which requires some setup. I will be assisting you with this, please let me know when you might have some time and we can begin the process",
-         "Okay great, can you please obtain approval from your manager to proceed with the requested changes? You can send me a screenshot of the approval once you have it.",
-         "I can confirm that your issue has been resolved. If you have any further questions or need assistance, feel free to reach out. Have a great day!",
-         "Hi there! I wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!",
-         "If you run into any issues or require additional assistance definitely let me know!"
-        
+      "id": "greetings",
+      "name": "Greeting, Follow-Up and Closing Messages",
+      "messages": [
+        {
+          "id": "hello",
+          "title": "Standard Greeting",
+          "text": "Hi there! I am reaching out regarding your ticket. Could you please share more details about the issue you're facing so I can assist you better?"
+        },
+        {
+          "id": "standard-greeting-anydesk",
+          "title": "Greeting - Anydesk Request",
+          "text": "Hi! I’m from the IT department, and it’s a pleasure to meet you! I’m reaching out regarding your request. To assist you, please follow these steps:\n\nDownload the AnyDesk program:\nIf you’re using Windows, you can download it from this link: https://anydesk.com/en or search for it in your browser.\nIf you’re using macOS, please download it from this link:https://anydesk.com/en/downloads/mac-os\n\nInstall the program:\nOn Windows: Follow the on-screen installation instructions.\nOn macOS: After installation, go to System Settings > Privacy & Security and grant AnyDesk access to Screen Recording and Accessibility.\n\nOpen AnyDesk and send me your AnyDesk address (a 9–11 digit code).\n\nImportant: While I am connected to your computer, please do not leave your device without notifying me first.\n\nPlease note that we are no longer able to accept IT support requests via direct messages. Kindly submit a ticket through IT Helpdesk. Thank you for your understanding!"
+        },
+        {
+          "id": "follow-up",
+          "title": "Follow-Up Message",
+          "text": "Hello! I am just checking in regarding your ticket. Are you still experiencing the issue?"
+        }, 
+        {
+          "id": "ticket-closure",
+          "title": "Ticket Closure Notification",
+          "text": "Hi there! I wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
+        },
+        {
+          "id": "approval-request",
+          "title": "Asking User to get Approval",
+          "text": "Okay great, can you please obtain approval from your manager to proceed with the requested changes? You can send me a screenshot of the approval once you have it."
+        },
+        {
+          "id": "anydesk-id",
+          "title": "Asking for Anydesk ID",
+          "text": "Could you please provide your Anydesk ID so that I can remotely access your computer to assist you further?"
+        },
+        {
+          "id": "closing",
+          "title": "Closing Message",
+          "text": "Thanks for your patience. Please let me know if you need anything else."
+        }
       ]
     },
     {
+      "id": "laptops-virtual-machines",
+      "name": "Laptop & Virtual Machine Issues and Requests",
+      "messages": [
+        {
+          "id": "checks-before-replacement",
+          "title": "Checks Before Laptop Replacement",
+          "text": "We’ve received your request for a replacement laptop. Before proceeding, we need to confirm a few details. Could you please confirm that your current laptop is no longer functional?"
+        },
+        {
+          "id": "sign-out-sign-in",
+          "title": "Sign Out and Sign In",
+          "text": "Can you please try signing out of your account and then signing back in?"
+        },
+        {
+          "id": "restart",
+          "title": "Restart",
+          "text": "Please try restarting your device and let me know if the issue persists."
+        },
+        {
+          "id": "hard-restart",
+          "title": "",
+          "text": "To perform a hard restart on your laptop, please follow these steps:\n\n1. Press and hold the power button on your laptop for about 10-15 seconds until the device powers off completely.\n2. Wait for a few seconds to ensure that the laptop is fully turned off.\n3. Press the power button again to turn the laptop back on.\n\nOnce your laptop has restarted, please check if the issue you were experiencing has been resolved."
+        },
+        {
+          "id": "vm-restart-complete",
+          "title": "Virtual Machine Restart Complete",
+          "text": "I have restarted your virtual machine. Please let me know if it is functioning better now."
+        },
+        {
+          "id": "laptop-delivery-issue",
+          "title": "Laptop Delivery Issue",
+          "text": "We are experiencing delays with laptop deliveries. We will keep you updated on the status of your order."
+        },
+        {
+          "id": "new-laptop-setup",
+          "title": "New Laptop Setup",
+          "text": "Hello! I hope you are doing well.\n.I am reaching out to you with regards to your new laptop which requires some setup. I will be assisting you with this, please let me know when you might have some time and we can begin the process"
+        }
+      ]
+    },
+    {
+      "id": "software",
       "name": "Software Installation",
-      "items": [
-        "Hi there! We received your software request. Admin approval is required. I'll notify you once approved.",
-        "I am currently installing the requested software on your device. I'll let you know once completed.",
-        "The software has been successfully installed on your device. Please let me know if you need any further assistance.",
-        "Could you please specify which type of UiPath bot you would like to install?",
-        "Temporary admin rights have been granted. Please proceed with the installation and let me know once it's complete.",
-        "Would you like me to install any additional apps for work on the device?"
+      "messages": [
+        {
+          "id": "software-request-received",
+          "title": "Software Request Received",
+          "text": "Hi there! We received your software request. Admin approval is required. I'll notify you once approved."
+        },
+        {
+          "id": "install-complete",
+          "title": "Installation Complete",
+          "text": "The software has been successfully installed on your device."
+        },
+        {
+          "id": "install-in-progress",
+          "title": "Installation in Progress",
+          "text": "I am currently installing the requested software on your device. I'll let you know once completed."
+        },
+        {
+          "id": "uipath-bot-type",
+          "title": "UiPath Bot Type Clarification",
+          "text": "Could you please specify which type of UiPath bot you would like to install?"
+        },
+        {
+          "id": "admin-rights-granted",
+          "title": "Temporary Admin Rights Granted",
+          "text": "Temporary admin rights have been granted. Please proceed with the installation and let me know once it's complete."
+        },
+        {
+          "id": "compatibility-check",
+          "title": "Compatibility Check",
+          "text": "Please verify that your device meets the minimum system requirements for the software."
+        }
 
       ]
     },
     {
-      "name": "Laptop & Virtual Machine Issues and Requests",
-      "items": [
-        "Could you please provide more details about the issue you're experiencing? This will help me assist you better.",
-        "Before we proceed with a replacement, I would like to perform some checks on your current laptop to see if we can resolve the issue without needing a new device.",
-        "Can you please try signing out of your account and then signing back in?",
-        "Could you please restart your device and let me know if the issue persists?",
-        "To perform a hard restart on your laptop, please follow these steps:\n\n1. Press and hold the power button on your laptop for about 10-15 seconds until the device powers off completely.\n2. Wait for a few seconds to ensure that the laptop is fully turned off.\n3. Press the power button again to turn the laptop back on.\n\nOnce your laptop has restarted, please check if the issue you were experiencing has been resolved.",
-        "I have restarted your virtual machine. Please let me know if it is functioning better now."
-      ]     
+      "id": "senior-management",
+      "name": "Senior Management Requests",
+      "messages": [
+        {
+          "id": "time-estimate",
+          "title": "Time Estimate",
+          "text": "I estimate it might take 10-15 minutes to resolve your issue. I appreciate your patience while I work on it."
+        },
+        {
+          "id": "provide-workaround",
+          "title": "Provide Temporary Workaround",
+          "text": "Would you like me to provide a temporary workaround while we work on a permanent solution?"
+        },
+        {
+          "id": "escalation-confirmation",
+          "title": "Escalation Confirmation",
+          "text": "I have escalated your issue to our senior management team. They will review it and get back to you shortly."
+        },
+        {
+          "id": "temporary-workaround-implemented",
+          "title": "Temporary Workaround Implemented",
+          "text": "I have implemented a temporary workaround for your issue. Please let me know if it helps or if you need further assistance."
+        }
+      ]
     },
     {
+      "id": "misc",
       "name": "Miscellaneous Messages",
-      "items": [
-        "To get started with your new Windows laptop, please follow these initial setup steps:\n\n1. Power On: Press the power button to turn on your laptop.\n2. Initial Setup: Follow the on-screen instructions to select your region, language, and keyboard layout.\n3. Connect to Wi-Fi: Choose your Wi-Fi network and enter the password to connect.\n4. Sign In: Use your company credentials to sign in. If you don't have them yet, please contact IT support.\n5. Install Updates: Once signed in, please install Anydesk on your device using this link: [https://anydesk.com/en].\n6.Then please share your AnyDesk ID with us so we can assist you further.\n\nIf you encounter any issues during the setup process, feel free to reach out for assistance.",
-        "For better tracking and assistance, could you please log a ticket using this link? https://helpdesk.infuse.com. This will help us manage and resolve your issue more efficiently. Thank you!",
-        "Hello! I have taken over your ticket and will be assisting you from now on. Please let me know if you have any questions or need further assistance.",
-        "I have reassigned your ticket to another agent who will be able to assist you further. Please expect a follow-up message shortly.",
-        "Your ticket has been escalated to a higher-level support team. Please expect a follow-up message shortly.",
-        "Could you please clarify which role you would like to be assigned? This will help us ensure you have the appropriate access and permissions.",
-        "I understand you're experiencing issues with your VPN connection. Could you please provide more details about the problem you're facing?",
-        "Could you please provide a screenshot of the error message or issue you're encountering?",
-        "Please try the following steps:\n\n1. On the login screen, click on 'Other User' on the bottom left of the screen.\n2. Enter your username and password.\n3. If you continue to experience issues, please let me know so we can explore further solutions." 
-      ]
-    }, 
-    {
-      "name": "Messages for Senior Management",
-      "items": [
-        "I estimate it might take 10-15 minutes to resolve your issue. I appreciate your patience while I work on it.",
-        "Would you like me to provide a temporary workaround while we work on a permanent solution?",
-        "I have implemented a temporary workaround for your issue. Please let me know if it helps or if you need further assistance.",
-        "I wanted to follow up on your ticket to ensure everything is progressing smoothly. Please let me know if you have any questions or need further assistance."
+      "messages": [
+        {
+          "id": "setup-steps",
+          "title": "New Device Setup Steps",
+          "text": "To get started with your new Windows laptop, please follow these initial setup steps:\n\n1. Power On: Press the power button to turn on your laptop.\n2. Initial Setup: Follow the on-screen instructions to select your region, language, and keyboard layout.\n3. Connect to Wi-Fi: Choose your Wi-Fi network and enter the password to connect.\n4. Sign In: Use your company credentials to sign in. If you don't have them yet, please contact IT support.\n5. Install Updates: Once signed in, please install Anydesk on your device using this link: [https://anydesk.com/en].\n6.Then please share your AnyDesk ID with us so we can assist you further.\n\nIf you encounter any issues during the setup process, feel free to reach out for assistance."
+        },
+        {
+          "id": "ticket-log",
+          "title": "Ticket Logging Request",
+          "text": "For better tracking and assistance, could you please log a ticket using this link? https://helpdesk.infuse.com. This will help us manage and resolve your issue more efficiently. Thank you!"
+        },
+        {
+          "id": "policy-update",
+          "title": "IT Policy Update Notification",
+          "text": "Please be informed that there has been an update to our IT policies. Kindly review the changes at your earliest convenience."
+        },
+        {
+          "id": "ticket-takeover",
+          "title": "Ticket Takeover Notification",
+          "text": "Hello! I have taken over your ticket and will be assisting you from now on. Please let me know if you have any questions or need further assistance."
+        }, 
+        {
+          "id": "ticket-reassignment",
+          "title": "Ticket Reassignment Notification",
+          "text": "I have reassigned your ticket to another agent who will be able to assist you further. Please expect a follow-up message shortly."
+        }, 
+        {
+          "id": "ticket-escalation",
+          "title": "Ticket Escalation Notification",
+          "text": "Your ticket has been escalated to a higher-level support team. Please expect a follow-up message shortly."
+        }, 
+        {
+          "id": "vpn-connection-issue",
+          "title": "VPN Connection Issue",
+          "text": "I understand you're experiencing issues with your VPN connection. Could you please provide more details about the problem you're facing?."
+        },
+        {
+          "id": "request-screenshot",
+          "title": "Request for Screenshot",
+          "text": "Could you please provide a screenshot of the error message or issue you're encountering?"
+        },
+        {
+          "id": "login-issue-steps",
+          "title": "Login Issue Steps",
+          "text": "Please try the following steps:\n\n1. On the login screen, click on 'Other User' on the bottom left of the screen.\n2. Enter your username and password.\n3. If you continue to experience issues, please let me know so we can explore further solutions."
+        },
+        {
+          "id": "change-department-information",
+          "title": "Change Department Information",
+          "text": "Hello! I am aware you are changing departments soon. I will assist you with updating your information and access accordingly."
+        }
       ]
     }
+
   ]
 }
-
