@@ -7,39 +7,39 @@
         {
           "id": "hello",
           "title": "Standard Greeting",
-          "text": "Hello!\n\nI hope you are doing well today. will be assisting you with this ticket."
+          "text": "Hello!\n\nI hope you are doing well today. I will be assisting you with this ticket."
         },
         {
           "id": "standard-greeting-anydesk",
-          "title": "Greeting - Anydesk Download Steps",
+          "title": "Greeting - AnyDesk Download Steps",
           "text": "Hi!\n\nI’m from the IT department, and it’s a pleasure to meet you! I’m reaching out regarding your request. To assist you, please follow these steps:\n\nDownload the AnyDesk program:\nIf you’re using Windows, you can download it from this link: https://anydesk.com/en or search for it in your browser.\nIf you’re using macOS, please download it from this link: https://anydesk.com/en/downloads/mac-os\n\nInstall the program:\nOn Windows: Follow the on-screen installation instructions.\nOn macOS: After installation, go to System Settings > Privacy & Security and grant AnyDesk access to Screen Recording and Accessibility.\n\nOpen AnyDesk and send me your AnyDesk address (a 9–11 digit code).\n\nImportant: While I am connected to your computer, please do not leave your device without notifying me first.\n\nPlease note that we are no longer able to accept IT support requests via direct messages. Kindly submit a ticket through IT Helpdesk. Thank you for your understanding!"
         },
         {
           "id": "follow-up",
           "title": "Follow-Up Message",
-          "text": "Hello!\n\n I am just checking in regarding your ticket. Are you still experiencing the issue?"
-        }, 
-        {
-          "id": "ticket-closure",
-          "title": "Ticket Closure Notification - Issue Resolved",
-          "text": "Hi there!\n\n I wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
+          "text": "Hello!\n\nI am just checking in regarding your ticket. Are you still experiencing the issue?"
         },
         {
-          "id": "ticket-closure",
+          "id": "ticket-closure-resolved",
+          "title": "Ticket Closure Notification - Issue Resolved",
+          "text": "Hi there!\n\nI wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
+        },
+        {
+          "id": "ticket-closure-no-response",
           "title": "Ticket Closure Notification - No Response",
-          "text": "Hi there!\n\n I wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
+          "text": "Hi there!\n\nI wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
         },
         {
           "id": "approval-request",
-          "title": "Ask User to get Approval",
+          "title": "Ask User to Get Approval",
           "text": "Okay great, can you please obtain approval to proceed with the requested changes? You can send me a screenshot of the approval once you have it."
         },
         {
           "id": "anydesk-id",
-          "title": "Ask for Anydesk ID",
-          "text": "Could you please provide me with your Anydesk ID so that I can remotely access your computer to assist you further?"
+          "title": "Ask for AnyDesk ID",
+          "text": "Could you please provide me with your AnyDesk ID so that I can remotely access your computer to assist you further?"
         }
-      ] 
+      ]
     },
     {
       "id": "laptops-virtual-machines",
@@ -63,7 +63,7 @@
         {
           "id": "hard-restart",
           "title": "Laptop Hard Restart Steps",
-          "text": "To perform the hard restart on your laptop, please follow these steps:\n\n1. Press and hold the power button on your laptop for about 10-15 seconds until the device powers off completely.\n2. Wait for a few seconds to ensure that the laptop is fully turned off.\n3. Press the power button again to turn the laptop back on.\n\nOnce your laptop has restarted, please check if the issue you were experiencing has been resolved."
+          "text": "To perform a hard restart on your laptop, please follow these steps:\n\n1. Press and hold the power button on your laptop for about 10–15 seconds until the device powers off completely.\n2. Wait a few seconds to ensure that the laptop is fully turned off.\n3. Press the power button again to turn the laptop back on.\n\nOnce your laptop has restarted, please check if the issue has been resolved."
         },
         {
           "id": "vm-restart-complete",
@@ -73,12 +73,12 @@
         {
           "id": "request-laptop-check",
           "title": "Request to Troubleshoot Laptop",
-          "text": "Hello!\n\nI hope you are doing well. I would like to connect to your device and perform some troubleshooting to resolve the issues with your laptop.Could you please let me know when I can connect?"
+          "text": "Hello!\n\nI hope you are doing well. I would like to connect to your device and perform some troubleshooting to resolve the issues with your laptop. Could you please let me know when I can connect?"
         },
         {
           "id": "new-laptop-setup",
           "title": "New Laptop Setup Steps",
-          "text": "Hello! I hope you are doing well.\nI am reaching out to you with regards to your new laptop which requires some setup. I will be assisting you with this, please let me know when you might have some time and we can begin the process."
+          "text": "Hello!\n\nI am reaching out regarding your new laptop, which requires some setup. I will be assisting you with this. Please let me know when you might have some time so we can begin the process."
         }
       ]
     },
@@ -89,7 +89,7 @@
         {
           "id": "company-portal-information",
           "title": "Company Portal Application Download Steps",
-          "text": "Please follow these steps to download the application on Company Portal:\n1.Search for the Company Portal app and sign in with your company credentials if not signed in.\n2. After signing in, you should have access to the resources and applications provided by INFUSE. Search for the application, open it and click on Install.\n\nIf you encounter any issues during this process or need further assistance, please let me know!"
+          "text": "Please follow these steps to download the application via Company Portal:\n\n1. Search for the Company Portal app and sign in with your company credentials.\n2. Once signed in, search for the application, open it, and click Install.\n\nIf you encounter any issues during this process or need further assistance, please let me know."
         },
         {
           "id": "install-complete",
@@ -99,7 +99,7 @@
         {
           "id": "install-in-progress",
           "title": "Application Installation in Progress",
-          "text": "I am currently installing the requested software on your device. I'll let you know once completed."
+          "text": "I am currently installing the requested software on your device. I will let you know once it is completed."
         },
         {
           "id": "uipath-bot-type",
@@ -109,10 +109,10 @@
         {
           "id": "admin-rights-granted",
           "title": "Temporary Admin Rights Granted - Mosyle",
-          "text": "Temporary admin rights have been granted. Please proceed with the installation and let me know once it's complete."
+          "text": "Temporary admin rights have been granted. Please proceed with the installation and let me know once it is complete."
         },
         {
-          "id": "level-of-access"
+          "id": "level-of-access",
           "title": "Verify Level of Access",
           "text": "Could you please let me know what access level should be granted?"
         }
@@ -125,7 +125,7 @@
         {
           "id": "time-estimate",
           "title": "Time Estimate",
-          "text": "I estimate it might take 10-15 minutes to resolve your issue. I appreciate your patience while I work on it."
+          "text": "I estimate it might take 10–15 minutes to resolve your issue. I appreciate your patience while I work on it."
         },
         {
           "id": "provide-workaround",
@@ -151,42 +151,42 @@
         {
           "id": "setup-steps",
           "title": "New Device Setup Steps",
-          "text": "To get started with your new Windows laptop, please follow these initial setup steps:\n\n1. Power On: Press the power button to turn on your laptop.\n2. Initial Setup: Follow the on-screen instructions to select your region, language, and keyboard layout.\n3. Connect to Wi-Fi: Choose your Wi-Fi network and enter the password to connect.\n4. Sign In: Use your INFUSE credentials to sign in. If you don't have them yet, please contact IT support.\n5. Install Updates: Once signed in, please install Anydesk on your device using this link: [https://anydesk.com/en].\n6.Then please share your AnyDesk ID with us so we can assist you further.\n\nIf you encounter any issues during the setup process, feel free to reach out for assistance."
+          "text": "To get started with your new Windows laptop, please follow these steps:\n\n1. Power on your device.\n2. Follow the on-screen setup instructions.\n3. Connect to Wi-Fi.\n4. Sign in using your INFUSE credentials.\n5. Install AnyDesk from https://anydesk.com/en.\n6. Share your AnyDesk ID with IT.\n\nIf you encounter any issues, feel free to reach out for assistance."
         },
         {
           "id": "ticket-log",
           "title": "Provide Helpdesk Link",
-          "text": "For better tracking and assistance, could you please log a ticket using this link? https://helpdesk.infuse.com. This will help us manage and resolve your issue more efficiently. Thank you!"
+          "text": "For better tracking and assistance, please log a ticket using this link: https://helpdesk.infuse.com. Thank you!"
         },
         {
           "id": "ticket-takeover",
-          "title": "Ticket Takeover From Another Specialist Notification",
-          "text": "Hello! I have taken over your ticket and will be assisting you from now on. Please let me know if you have any questions or need further assistance."
-        }, 
+          "title": "Ticket Takeover Notification",
+          "text": "Hello! I have taken over your ticket and will be assisting you from now on. Please let me know if you have any questions."
+        },
         {
           "id": "ticket-reassignment",
-          "title": "Ticket Reassignment to Another Specialist Notification",
+          "title": "Ticket Reassignment Notification",
           "text": "I have reassigned your ticket to another agent who will be able to assist you further. Please expect a follow-up message shortly."
-        }, 
+        },
         {
           "id": "ticket-escalation",
           "title": "Ticket Escalation Notification",
           "text": "Your ticket has been escalated to a higher-level support team. Please expect a follow-up message shortly."
-        }, 
+        },
         {
           "id": "vpn-connection-issue",
           "title": "VPN Connection Issue",
-          "text": "I understand you're experiencing issues with your VPN connection. Could you please provide more details about the problem you're facing?."
+          "text": "I understand you are experiencing issues with your VPN connection. Could you please provide more details about the problem you are facing?"
         },
         {
           "id": "request-screenshot",
-          "title": "Request Screenshot of Issue/Error",
-          "text": "Could you please provide a screenshot of the error message or issue you're encountering?"
+          "title": "Request Screenshot of Issue",
+          "text": "Could you please provide a screenshot of the error message or issue you are encountering?"
         },
         {
           "id": "login-issue-steps",
           "title": "Login as Other User Steps - Windows",
-          "text": "Please try the following steps:\n\n1. On the login screen, click on 'Other User' on the bottom left of the screen.\n2. Enter your username and password.\n3. If you continue to experience issues, please let me know so we can explore further solutions."
+          "text": "Please try the following steps:\n\n1. On the login screen, click on 'Other User'.\n2. Enter your username and password.\n3. Let me know if the issue persists."
         },
         {
           "id": "change-department-information",
@@ -194,14 +194,11 @@
           "text": "Hello! I am aware you are changing departments soon. I will assist you with updating your information and access accordingly."
         },
         {
-        "id": "spam-email-steps",
+          "id": "spam-email-steps",
           "title": "Spam Email Steps",
-          "text": "Thank you for notifying us about the spam email you received. To help us investigate and take appropriate action, please follow these steps:\n\n1. Do not click on any links or download any attachments from the spam email.\n2. Forward the spam email to my email address.\n3. After forwarding, please delete the spam email from your inbox.\n\nOnce we receive the forwarded email, we will analyze it and take necessary measures to protect your account and prevent future spam."
+          "text": "Thank you for reporting the spam email. Please do the following:\n\n1. Do not click any links or attachments.\n2. Forward the email to IT.\n3. Delete the email from your inbox.\n\nWe will investigate and take appropriate action."
         }
       ]
     }
-
   ]
 }
-
-
