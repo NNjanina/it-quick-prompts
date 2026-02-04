@@ -7,11 +7,11 @@
         {
           "id": "hello",
           "title": "Standard Greeting",
-          "text": "Hi there!\n\nI am reaching out regarding your ticket. Could you please share more details about the issue you're facing so I can assist you better?"
+          "text": "Hello!\n\nI hope you are doing well today. will be assisting you with this ticket."
         },
         {
           "id": "standard-greeting-anydesk",
-          "title": "Greeting - Anydesk Request",
+          "title": "Greeting - Anydesk Download Steps",
           "text": "Hi!\n\nI’m from the IT department, and it’s a pleasure to meet you! I’m reaching out regarding your request. To assist you, please follow these steps:\n\nDownload the AnyDesk program:\nIf you’re using Windows, you can download it from this link: https://anydesk.com/en or search for it in your browser.\nIf you’re using macOS, please download it from this link: https://anydesk.com/en/downloads/mac-os\n\nInstall the program:\nOn Windows: Follow the on-screen installation instructions.\nOn macOS: After installation, go to System Settings > Privacy & Security and grant AnyDesk access to Screen Recording and Accessibility.\n\nOpen AnyDesk and send me your AnyDesk address (a 9–11 digit code).\n\nImportant: While I am connected to your computer, please do not leave your device without notifying me first.\n\nPlease note that we are no longer able to accept IT support requests via direct messages. Kindly submit a ticket through IT Helpdesk. Thank you for your understanding!"
         },
         {
@@ -21,25 +21,25 @@
         }, 
         {
           "id": "ticket-closure",
-          "title": "Ticket Closure Notification",
+          "title": "Ticket Closure Notification - Issue Resolved",
+          "text": "Hi there!\n\n I wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
+        },
+        {
+          "id": "ticket-closure",
+          "title": "Ticket Closure Notification - No Response",
           "text": "Hi there!\n\n I wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
         },
         {
           "id": "approval-request",
-          "title": "Asking User to get Approval",
-          "text": "Okay great, can you please obtain approval from your manager to proceed with the requested changes? You can send me a screenshot of the approval once you have it."
+          "title": "Ask User to get Approval",
+          "text": "Okay great, can you please obtain approval to proceed with the requested changes? You can send me a screenshot of the approval once you have it."
         },
         {
           "id": "anydesk-id",
-          "title": "Asking for Anydesk ID",
-          "text": "Hello!\n\nCould you please provide me with your Anydesk ID so that I can remotely access your computer to assist you further?"
-        },
-        {
-          "id": "closing",
-          "title": "Closing Message",
-          "text": "Thanks for your patience. Please let me know if you need anything else."
+          "title": "Ask for Anydesk ID",
+          "text": "Could you please provide me with your Anydesk ID so that I can remotely access your computer to assist you further?"
         }
-      ]
+      ] 
     },
     {
       "id": "laptops-virtual-machines",
@@ -63,7 +63,7 @@
         {
           "id": "hard-restart",
           "title": "Laptop Hard Restart Steps",
-          "text": "To perform a hard restart on your laptop, please follow these steps:\n\n1. Press and hold the power button on your laptop for about 10-15 seconds until the device powers off completely.\n2. Wait for a few seconds to ensure that the laptop is fully turned off.\n3. Press the power button again to turn the laptop back on.\n\nOnce your laptop has restarted, please check if the issue you were experiencing has been resolved."
+          "text": "To perform the hard restart on your laptop, please follow these steps:\n\n1. Press and hold the power button on your laptop for about 10-15 seconds until the device powers off completely.\n2. Wait for a few seconds to ensure that the laptop is fully turned off.\n3. Press the power button again to turn the laptop back on.\n\nOnce your laptop has restarted, please check if the issue you were experiencing has been resolved."
         },
         {
           "id": "vm-restart-complete",
@@ -71,9 +71,9 @@
           "text": "I have restarted your virtual machine. Please let me know if it is functioning better now."
         },
         {
-          "id": "laptop-delivery-issue",
-          "title": "Laptop Delivery Issue",
-          "text": "We are experiencing delays with laptop deliveries. We will keep you updated on the status of your order."
+          "id": "request-laptop-check",
+          "title": "Request to Troubleshoot Laptop",
+          "text": "Hello!\n\nI hope you are doing well. I would like to connect to your device and perform some troubleshooting to resolve the issues with your laptop.Could you please let me know when I can connect?"
         },
         {
           "id": "new-laptop-setup",
@@ -84,12 +84,12 @@
     },
     {
       "id": "software",
-      "name": "Software Installation",
+      "name": "Applications",
       "messages": [
         {
-          "id": "software-request-received",
-          "title": "Software Request Received",
-          "text": "Hi there!\n\n We received your software request. Admin approval is required. I'll notify you once approved."
+          "id": "company-portal-information",
+          "title": "Company Portal Application Download Steps",
+          "text": "Please follow these steps to download the application on Company Portal:\n1.Search for the Company Portal app and sign in with your company credentials if not signed in.\n2. After signing in, you should have access to the resources and applications provided by INFUSE. Search for the application, open it and click on Install.\n\nIf you encounter any issues during this process or need further assistance, please let me know!"
         },
         {
           "id": "install-complete",
@@ -98,7 +98,7 @@
         },
         {
           "id": "install-in-progress",
-          "title": "Installation in Progress",
+          "title": "Application Installation in Progress",
           "text": "I am currently installing the requested software on your device. I'll let you know once completed."
         },
         {
@@ -112,16 +112,15 @@
           "text": "Temporary admin rights have been granted. Please proceed with the installation and let me know once it's complete."
         },
         {
-          "id": "compatibility-check",
-          "title": "Compatibility Check",
-          "text": "Please verify that your device meets the minimum system requirements for the software."
+          "id": "level-of-access"
+          "title": "Verify Level of Access",
+          "text": "Could you please let me know what access level should be granted?"
         }
-
       ]
     },
     {
       "id": "senior-management",
-      "name": "Senior Management Requests",
+      "name": "Senior Management Messages",
       "messages": [
         {
           "id": "time-estimate",
@@ -136,12 +135,12 @@
         {
           "id": "escalation-confirmation",
           "title": "Escalation Confirmation",
-          "text": "I have escalated your issue to our senior management team. They will review it and get back to you shortly."
+          "text": "I have escalated your issue to our senior admin team. They will review it and get back to you shortly."
         },
         {
           "id": "temporary-workaround-implemented",
           "title": "Temporary Workaround Implemented",
-          "text": "I have implemented a temporary workaround for your issue. Please let me know if it helps or if you need further assistance."
+          "text": "I have implemented a temporary workaround for the issue. Please let me know if it helps or if you need further assistance."
         }
       ]
     },
@@ -152,26 +151,21 @@
         {
           "id": "setup-steps",
           "title": "New Device Setup Steps",
-          "text": "To get started with your new Windows laptop, please follow these initial setup steps:\n\n1. Power On: Press the power button to turn on your laptop.\n2. Initial Setup: Follow the on-screen instructions to select your region, language, and keyboard layout.\n3. Connect to Wi-Fi: Choose your Wi-Fi network and enter the password to connect.\n4. Sign In: Use your company credentials to sign in. If you don't have them yet, please contact IT support.\n5. Install Updates: Once signed in, please install Anydesk on your device using this link: [https://anydesk.com/en].\n6.Then please share your AnyDesk ID with us so we can assist you further.\n\nIf you encounter any issues during the setup process, feel free to reach out for assistance."
+          "text": "To get started with your new Windows laptop, please follow these initial setup steps:\n\n1. Power On: Press the power button to turn on your laptop.\n2. Initial Setup: Follow the on-screen instructions to select your region, language, and keyboard layout.\n3. Connect to Wi-Fi: Choose your Wi-Fi network and enter the password to connect.\n4. Sign In: Use your INFUSE credentials to sign in. If you don't have them yet, please contact IT support.\n5. Install Updates: Once signed in, please install Anydesk on your device using this link: [https://anydesk.com/en].\n6.Then please share your AnyDesk ID with us so we can assist you further.\n\nIf you encounter any issues during the setup process, feel free to reach out for assistance."
         },
         {
           "id": "ticket-log",
-          "title": "Ticket Logging Request",
+          "title": "Provide Helpdesk Link",
           "text": "For better tracking and assistance, could you please log a ticket using this link? https://helpdesk.infuse.com. This will help us manage and resolve your issue more efficiently. Thank you!"
         },
         {
-          "id": "policy-update",
-          "title": "IT Policy Update Notification",
-          "text": "Please be informed that there has been an update to our IT policies. Kindly review the changes at your earliest convenience."
-        },
-        {
           "id": "ticket-takeover",
-          "title": "Ticket Takeover Notification",
+          "title": "Ticket Takeover From Another Specialist Notification",
           "text": "Hello! I have taken over your ticket and will be assisting you from now on. Please let me know if you have any questions or need further assistance."
         }, 
         {
           "id": "ticket-reassignment",
-          "title": "Ticket Reassignment Notification",
+          "title": "Ticket Reassignment to Another Specialist Notification",
           "text": "I have reassigned your ticket to another agent who will be able to assist you further. Please expect a follow-up message shortly."
         }, 
         {
@@ -186,22 +180,28 @@
         },
         {
           "id": "request-screenshot",
-          "title": "Request for Screenshot",
+          "title": "Request Screenshot of Issue/Error",
           "text": "Could you please provide a screenshot of the error message or issue you're encountering?"
         },
         {
           "id": "login-issue-steps",
-          "title": "Login Issue Steps",
+          "title": "Login as Other User Steps - Windows",
           "text": "Please try the following steps:\n\n1. On the login screen, click on 'Other User' on the bottom left of the screen.\n2. Enter your username and password.\n3. If you continue to experience issues, please let me know so we can explore further solutions."
         },
         {
           "id": "change-department-information",
           "title": "Change Department Information",
           "text": "Hello! I am aware you are changing departments soon. I will assist you with updating your information and access accordingly."
+        },
+        {
+        "id": "spam-email-steps",
+          "title": "Spam Email Steps",
+          "text": "Thank you for notifying us about the spam email you received. To help us investigate and take appropriate action, please follow these steps:\n\n1. Do not click on any links or download any attachments from the spam email.\n2. Forward the spam email to my email address.\n3. After forwarding, please delete the spam email from your inbox.\n\nOnce we receive the forwarded email, we will analyze it and take necessary measures to protect your account and prevent future spam."
         }
       ]
     }
 
   ]
 }
+
 
