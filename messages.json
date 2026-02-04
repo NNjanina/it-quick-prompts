@@ -7,22 +7,22 @@
         {
           "id": "hello",
           "title": "Standard Greeting",
-          "text": "Hi there! I am reaching out regarding your ticket. Could you please share more details about the issue you're facing so I can assist you better?"
+          "text": "Hi there!\n\nI am reaching out regarding your ticket. Could you please share more details about the issue you're facing so I can assist you better?"
         },
         {
           "id": "standard-greeting-anydesk",
           "title": "Greeting - Anydesk Request",
-          "text": "Hi! I’m from the IT department, and it’s a pleasure to meet you! I’m reaching out regarding your request. To assist you, please follow these steps:\n\nDownload the AnyDesk program:\nIf you’re using Windows, you can download it from this link: https://anydesk.com/en or search for it in your browser.\nIf you’re using macOS, please download it from this link:https://anydesk.com/en/downloads/mac-os\n\nInstall the program:\nOn Windows: Follow the on-screen installation instructions.\nOn macOS: After installation, go to System Settings > Privacy & Security and grant AnyDesk access to Screen Recording and Accessibility.\n\nOpen AnyDesk and send me your AnyDesk address (a 9–11 digit code).\n\nImportant: While I am connected to your computer, please do not leave your device without notifying me first.\n\nPlease note that we are no longer able to accept IT support requests via direct messages. Kindly submit a ticket through IT Helpdesk. Thank you for your understanding!"
+          "text": "Hi!\n\nI’m from the IT department, and it’s a pleasure to meet you! I’m reaching out regarding your request. To assist you, please follow these steps:\n\nDownload the AnyDesk program:\nIf you’re using Windows, you can download it from this link: https://anydesk.com/en or search for it in your browser.\nIf you’re using macOS, please download it from this link: https://anydesk.com/en/downloads/mac-os\n\nInstall the program:\nOn Windows: Follow the on-screen installation instructions.\nOn macOS: After installation, go to System Settings > Privacy & Security and grant AnyDesk access to Screen Recording and Accessibility.\n\nOpen AnyDesk and send me your AnyDesk address (a 9–11 digit code).\n\nImportant: While I am connected to your computer, please do not leave your device without notifying me first.\n\nPlease note that we are no longer able to accept IT support requests via direct messages. Kindly submit a ticket through IT Helpdesk. Thank you for your understanding!"
         },
         {
           "id": "follow-up",
           "title": "Follow-Up Message",
-          "text": "Hello! I am just checking in regarding your ticket. Are you still experiencing the issue?"
+          "text": "Hello!\n\n I am just checking in regarding your ticket. Are you still experiencing the issue?"
         }, 
         {
           "id": "ticket-closure",
           "title": "Ticket Closure Notification",
-          "text": "Hi there! I wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
+          "text": "Hi there!\n\n I wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
         },
         {
           "id": "approval-request",
@@ -32,7 +32,7 @@
         {
           "id": "anydesk-id",
           "title": "Asking for Anydesk ID",
-          "text": "Could you please provide your Anydesk ID so that I can remotely access your computer to assist you further?"
+          "text": "Hello!\n\nCould you please provide me with your Anydesk ID so that I can remotely access your computer to assist you further?"
         },
         {
           "id": "closing",
@@ -48,7 +48,7 @@
         {
           "id": "checks-before-replacement",
           "title": "Checks Before Laptop Replacement",
-          "text": "We’ve received your request for a replacement laptop. Before proceeding, we need to confirm a few details. Could you please confirm that your current laptop is no longer functional?"
+          "text": "We have received your request for a replacement laptop. Before proceeding, I will run some checks on your device to see if the issue can be fixed."
         },
         {
           "id": "sign-out-sign-in",
@@ -57,12 +57,12 @@
         },
         {
           "id": "restart",
-          "title": "Restart",
+          "title": "Device Restart",
           "text": "Please try restarting your device and let me know if the issue persists."
         },
         {
           "id": "hard-restart",
-          "title": "",
+          "title": "Laptop Hard Restart Steps",
           "text": "To perform a hard restart on your laptop, please follow these steps:\n\n1. Press and hold the power button on your laptop for about 10-15 seconds until the device powers off completely.\n2. Wait for a few seconds to ensure that the laptop is fully turned off.\n3. Press the power button again to turn the laptop back on.\n\nOnce your laptop has restarted, please check if the issue you were experiencing has been resolved."
         },
         {
@@ -77,8 +77,8 @@
         },
         {
           "id": "new-laptop-setup",
-          "title": "New Laptop Setup",
-          "text": "Hello! I hope you are doing well.\n.I am reaching out to you with regards to your new laptop which requires some setup. I will be assisting you with this, please let me know when you might have some time and we can begin the process"
+          "title": "New Laptop Setup Steps",
+          "text": "Hello! I hope you are doing well.\nI am reaching out to you with regards to your new laptop which requires some setup. I will be assisting you with this, please let me know when you might have some time and we can begin the process."
         }
       ]
     },
@@ -89,11 +89,11 @@
         {
           "id": "software-request-received",
           "title": "Software Request Received",
-          "text": "Hi there! We received your software request. Admin approval is required. I'll notify you once approved."
+          "text": "Hi there!\n\n We received your software request. Admin approval is required. I'll notify you once approved."
         },
         {
           "id": "install-complete",
-          "title": "Installation Complete",
+          "title": "Application Installation Complete",
           "text": "The software has been successfully installed on your device."
         },
         {
@@ -108,7 +108,7 @@
         },
         {
           "id": "admin-rights-granted",
-          "title": "Temporary Admin Rights Granted",
+          "title": "Temporary Admin Rights Granted - Mosyle",
           "text": "Temporary admin rights have been granted. Please proceed with the installation and let me know once it's complete."
         },
         {
@@ -204,3 +204,4 @@
 
   ]
 }
+
