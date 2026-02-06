@@ -11,8 +11,13 @@
         },
         {
           "id": "standard-greeting-anydesk",
-          "title": "Greeting - AnyDesk Download Steps",
+          "title": "Standard Greeting - AnyDesk Download Steps",
           "text": "Hi!\n\nI’m from the IT department, and it’s a pleasure to meet you! I’m reaching out regarding your request. To assist you, please follow these steps:\n\nDownload the AnyDesk program:\nIf you’re using Windows, you can download it from this link: https://anydesk.com/en or search for it in your browser.\nIf you’re using macOS, please download it from this link: https://anydesk.com/en/downloads/mac-os\n\nInstall the program:\nOn Windows: Follow the on-screen installation instructions.\nOn macOS: After installation, go to System Settings > Privacy & Security and grant AnyDesk access to Screen Recording and Accessibility.\n\nOpen AnyDesk and send me your AnyDesk address (a 9–11 digit code).\n\nImportant: While I am connected to your computer, please do not leave your device without notifying me first.\n\nPlease note that we are no longer able to accept IT support requests via direct messages. Kindly submit a ticket through IT Helpdesk. Thank you for your understanding!"
+        },
+        {
+          "id": "new-laptop-setup",
+          "title": "Standard Greeting - New Laptop Enrollment",
+          "text": "Hello!\n\nI am reaching out regarding your new laptop, which requires some setup. I will be assisting you with this. Please let me know when you might have some time so we can begin the process."
         },
         {
           "id": "follow-up",
@@ -22,17 +27,17 @@
         {
           "id": "ticket-closure-resolved",
           "title": "Ticket Closure Notification - Issue Resolved",
-          "text": "Hi there!\n\nI wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
+          "text": "Since the issue is now resolved, I will go ahead and close the ticket. If you require additional assistance, please do not hesitate to reach out again. Thank you!"
         },
         {
           "id": "ticket-closure-no-response",
           "title": "Ticket Closure Notification - No Response",
-          "text": "Hi there!\n\nI wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
+          "text": "Hello!\n\nI wanted to follow up on your ticket. Since I haven't heard back from you, I'll be closing the ticket for now. If you still need assistance, please don't hesitate to reach out again. Thank you!"
         },
         {
           "id": "approval-request",
           "title": "Ask User to Get Approval",
-          "text": "Okay great, can you please obtain approval to proceed with the requested changes? You can send me a screenshot of the approval once you have it."
+          "text": "Can you please obtain approval to proceed with the requested changes? You can send me a screenshot of the approval once you have it."
         },
         {
           "id": "anydesk-id",
@@ -74,11 +79,6 @@
           "id": "request-laptop-check",
           "title": "Request to Troubleshoot Laptop",
           "text": "Hello!\n\nI hope you are doing well. I would like to connect to your device and perform some troubleshooting to resolve the issues with your laptop. Could you please let me know when I can connect?"
-        },
-        {
-          "id": "new-laptop-setup",
-          "title": "New Laptop Setup Steps",
-          "text": "Hello!\n\nI am reaching out regarding your new laptop, which requires some setup. I will be assisting you with this. Please let me know when you might have some time so we can begin the process."
         }
       ]
     },
@@ -104,7 +104,7 @@
         {
           "id": "uipath-bot-type",
           "title": "UiPath Bot Type Clarification",
-          "text": "Could you please specify which type of UiPath bot you would like to install?"
+          "text": "Could you please specify which UiPath bot you would like to install?"
         },
         {
           "id": "admin-rights-granted",
@@ -123,6 +123,11 @@
       "name": "Senior Management Messages",
       "messages": [
         {
+          "id": "schedule-time",
+          "title": "Schedule Time with User",
+          "text": "Could you please let me know what time would suit you best for us to connect and investigate the issue?"
+        },
+        {
           "id": "time-estimate",
           "title": "Time Estimate",
           "text": "I estimate it might take 10–15 minutes to resolve your issue. I appreciate your patience while I work on it."
@@ -134,8 +139,8 @@
         },
         {
           "id": "escalation-confirmation",
-          "title": "Escalation Confirmation",
-          "text": "I have escalated your issue to our senior admin team. They will review it and get back to you shortly."
+          "title": "Ticket Escalation Confirmation",
+          "text": "I have escalated your issue to our a member of our senior admin team. They will review it and get back to you shortly."
         },
         {
           "id": "temporary-workaround-implemented",
@@ -160,12 +165,12 @@
         },
         {
           "id": "ticket-takeover",
-          "title": "Ticket Takeover Notification",
+          "title": "Ticket Takeover from another Specialist Notification",
           "text": "Hello! I have taken over your ticket and will be assisting you from now on. Please let me know if you have any questions."
         },
         {
           "id": "ticket-reassignment",
-          "title": "Ticket Reassignment Notification",
+          "title": "Ticket Reassignment to another Specialist Notification",
           "text": "I have reassigned your ticket to another agent who will be able to assist you further. Please expect a follow-up message shortly."
         },
         {
@@ -196,10 +201,11 @@
         {
           "id": "spam-email-steps",
           "title": "Spam Email Steps",
-          "text": "Thank you for reporting the spam email. Please do the following:\n\n1. Do not click any links or attachments.\n2. Forward the email to IT.\n3. Delete the email from your inbox.\n\nWe will investigate and take appropriate action."
+          "text": "Thank you for reporting the spam email. Please do the following:\n\n1. Do not click any links or attachments.\n2. Forward the email to my email address.\n3. Delete the email from your inbox.\n\nWe will investigate and take appropriate action."
         }
       ]
     }
   ]
 }
+
 
