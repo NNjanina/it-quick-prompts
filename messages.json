@@ -207,7 +207,7 @@
           "id": "spam-email-steps",
           "title": "Spam Email Steps",
           "text": "Thank you for reporting the spam email. Please do the following:\n\n1. Do not click any links or attachments.\n2. Forward the email to my email address.\n3. Delete the email from your inbox.\n\nWe will investigate and take appropriate action."
-        },
+        }
       ]
     }
   ]
