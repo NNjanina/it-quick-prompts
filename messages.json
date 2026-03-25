@@ -20,6 +20,11 @@
           "text": "Hello!\n\nI am reaching out regarding your new laptop, which requires some setup. I will be assisting you with this. Please let me know when you might have some time so we can begin the process."
         },
         {
+          "id": "wipe-equipment",
+          "title": "Standard Greeting - Wipe Equipment",
+          "text": "Hello!\n\nI hope you are doing well. I am reaching out to you in order to conduct a wipe for laptop wipe with serial number\n\nPlease let me know when you might be available to begin the process."
+        },
+        {
           "id": "follow-up",
           "title": "Follow-Up Message",
           "text": "Hello!\n\nI am just checking in regarding your ticket. Are you still experiencing the issue?"
@@ -125,7 +130,7 @@
         {
           "id": "schedule-time",
           "title": "Schedule Time with User",
-          "text": "Could you please let me know what time would suit you best for us to connect and investigate the issue?"
+          "text": "Could you please let me know what time would suit you best for us to connect?"
         },
         {
           "id": "time-estimate",
@@ -166,7 +171,7 @@
         {
           "id": "ticket-takeover",
           "title": "Ticket Takeover from another Specialist Notification",
-          "text": "Hello! I have taken over your ticket and will be assisting you from now on. Please let me know if you have any questions."
+          "text": "Hello! I have taken over your ticket and will be assisting you from now on. Please let me know when you might be available for us to connect."
         },
         {
           "id": "ticket-reassignment",
@@ -202,7 +207,7 @@
           "id": "spam-email-steps",
           "title": "Spam Email Steps",
           "text": "Thank you for reporting the spam email. Please do the following:\n\n1. Do not click any links or attachments.\n2. Forward the email to my email address.\n3. Delete the email from your inbox.\n\nWe will investigate and take appropriate action."
-        }
+        },
       ]
     }
   ]
