@@ -107,11 +107,6 @@
           "text": "I am currently installing the requested software on your device. I will let you know once it is completed."
         },
         {
-          "id": "uipath-bot-type",
-          "title": "UiPath Bot Type Clarification",
-          "text": "Could you please specify which UiPath bot you would like to install?"
-        },
-        {
           "id": "admin-rights-granted",
           "title": "Temporary Admin Rights Granted - Mosyle",
           "text": "Temporary admin rights have been granted. Please proceed with the installation and let me know once it is complete."
@@ -207,7 +202,7 @@
           "id": "spam-email-steps",
           "title": "Spam Email Steps",
           "text": "Thank you for reporting the spam email. Please do the following:\n\n1. Do not click any links or attachments.\n2. Forward the email to my email address.\n3. Delete the email from your inbox.\n\nWe will investigate and take appropriate action."
-        }
+        },
       ]
     }
   ]
