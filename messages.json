@@ -140,7 +140,7 @@
         {
           "id": "escalation-confirmation",
           "title": "Ticket Escalation Confirmation",
-          "text": "I have escalated your issue to our a member of our senior admin team. They will review it and get back to you shortly."
+          "text": "I have escalated your issue to a member of our senior admin team. They will review it and get back to you shortly."
         },
         {
           "id": "temporary-workaround-implemented",
@@ -202,7 +202,7 @@
           "id": "spam-email-steps",
           "title": "Spam Email Steps",
           "text": "Thank you for reporting the spam email. Please do the following:\n\n1. Do not click any links or attachments.\n2. Forward the email to my email address.\n3. Delete the email from your inbox.\n\nWe will investigate and take appropriate action."
-        },
+        }
       ]
     }
   ]
